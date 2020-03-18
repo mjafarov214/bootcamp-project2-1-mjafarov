@@ -17,6 +17,10 @@ function calculateDeposit() {
 }
 
 function finalCalculateResult(){
+    document.getElementById("red-tag-four").innerHTML= '';
+    document.getElementById("red-tag-three").innerHTML= '';
+    document.getElementById("red-tag-two").innerHTML= '';
+    document.getElementById("red-tag-one").innerHTML= '';
 if (cv.value >0) {
     if(refill.value>=0){
         if(percent.value>0&&percent.value<100){
