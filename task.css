@@ -1,13 +1,17 @@
 body{
     font-family: 'Baloo Chettan 2', cursive;
-    color: #084177;  
+    color: #084177;
+    background-image: url(https://schtirlitz.ru/wp-content/uploads/fony-dlya-sajta_28.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+
 }
 footer{
     border: 3px solid #084177;
     border-radius: 10px;
     max-width: 45%;
     min-width: 630px;
-    margin: 0 25%;
+    margin: 10% 25% 0 25%;
     padding: 0 15px;
     font-size: 10px;
     text-align: center;
@@ -53,4 +57,11 @@ article{
     width: 20px;
     color: red;
     
+}
+#sign{
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 25%;
+    color: white;
 }
