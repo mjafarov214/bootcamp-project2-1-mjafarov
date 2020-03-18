@@ -13,7 +13,6 @@ function calculateDeposit() {
         plusAmount = (finalResult +refillValue) * Number(percentInd) + refillValue;
         finalResult += plusAmount;
     }
-    console.log(finalResult);
     return finalResult;
 }
 
@@ -21,19 +20,23 @@ function finalCalculateResult(){
 if (cv.value >0) {
     if(refill.value>=0){
         if(percent.value>0&&percent.value<100){
-            if(days.value>0){
+            if(days.value>0&&(Math.trunc(days.value)==days.value)){
                 alert(calculateDeposit());
             }else{
                 console.log('Неверный формат');
+                document.getElementById("red-tag-four").innerHTML= '&#9888;';
             }
         }else{
             console.log('Неверный формат');
+            document.getElementById("red-tag-three").innerHTML= '&#9888;';
         }
     }else{
         console.log('Неверный формат');
+        document.getElementById("red-tag-two").innerHTML= '&#9888;';
     }
 } else {
     console.log('Неверный формат');
+    document.getElementById("red-tag-one").innerHTML= '&#9888;';
 }
 }
 
