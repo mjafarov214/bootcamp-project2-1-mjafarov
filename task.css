@@ -6,7 +6,7 @@ body{
     background-size:cover;
 
 }
-footer{
+header{
     border: 3px solid #084177;
     border-radius: 10px;
     max-width: 45%;
@@ -34,7 +34,7 @@ div{
     padding: 5px 10px;
     
 }
-h3{
+p{
     min-width: 350px;
     font-weight: normal;
     font-size: 17px;
@@ -53,15 +53,17 @@ input{
     color: #084177;
     font-family: 'Baloo Chettan 2', cursive;
 }
-article{
+.red-tag{
     width: 20px;
     color: red;
     
 }
 #sign{
+    margin-left: 25%;
+}
+#logo{
     font-family: 'Liu Jian Mao Cao', cursive;
     font-size: 35px;
-    font-weight: bold;
-    margin-left: 25%;
     color: white;
+    font-weight: bold;
 }

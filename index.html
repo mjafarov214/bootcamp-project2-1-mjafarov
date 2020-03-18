@@ -6,40 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="task.css">
     <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2|Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Депозитный калькулятор</title>
 </head>
 
 <body>
-    <footer>
+    <header>
         <h1>Расчет банковского вклада с капитализацией и пополнением</h1>
-    </footer>
+    </header>
     <main>
         <div>
-            <h3>Начальная сумма вклада (AZN)</h3>
+            <p>Начальная сумма вклада (AZN)</p>
             <input type="text" id="cv" placeholder="Сумма">
-            <article id="red-tag-one"></article>
+            <article id="red-tag-one" class="red-tag"></article>
         </div>
         <div>
-            <h3>Сумма ежемесячного пополнения (AZN)</h3>
+            <p>Сумма ежемесячного пополнения (AZN)</p>
             <input type="text" id="refill" placeholder="Сумма">
-            <article id="red-tag-two"></article>
+            <article id="red-tag-two" class="red-tag"></article>
         </div>
         <div>
-            <h3>Процентная ставка (%)</h3>
+            <p>Процентная ставка (%)</p>
             <input type="text" id="percent" placeholder="Процент">
-            <article id="red-tag-three"></article>
+            <article id="red-tag-three" class="red-tag"></article>
         </div>
         <div>
-            <h3>Срок вклада (дней)</h3>
+            <p>Срок вклада (дней)</p>
             <input type="text" id="time" placeholder="Срок вклада">
-            <article id="red-tag-four"></article>
+            <article id="red-tag-four" class="red-tag"></article>
         </div>
         <button id="for-deposit">Рассчитать</button>
 
         <script src="task.js"></script>
     </main>
     <div id="sign">
-        <p>Museyib Bank</p>
+        <article id="logo">Museyib Bank</article>
     </div>
 </body>
 
