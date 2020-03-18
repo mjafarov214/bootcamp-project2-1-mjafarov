@@ -1,0 +1,33 @@
+main{
+    margin: 10% 25%;
+    font-family: 'Baloo Chettan 2', cursive;
+    border: 3px solid black;
+    border-radius: 10px;
+    max-width: 45%;
+    min-width: 620px;
+    display: flex;
+    flex-direction: column;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    
+}
+h3{
+    min-width: 150px;
+    font-weight: normal;
+    font-size: 17px;
+    height: 0px;
+}
+input{
+    min-width: 250px;
+    margin-top: 10px;
+    height: 17px;
+}
+#for-deposit{
+    height: 35px;
+    font-size: 17px;
+    width: 500px;
+    margin: 30px 17%;
+}
